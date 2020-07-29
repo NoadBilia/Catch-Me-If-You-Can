@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- כתיבת איצטיאמאל בגרסה 5 -->
+<html lang="en"> <!-- אתר באנגלית -->
+
+<head> <!-- כותרת שלא מוצג באתר עצמו -->
+    <meta charset="UTF-8" /> <!-- סימנים בשפות -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- אתר אוּנִיבֶרְסָלִי - universal -->
+    <link rel="stylesheet" href="css/style.css"> <!-- החרזת על קובץ סיאסאס סטייל -->
+    <link rel="icon" href="assets/images/1.jpg"> <!-- icon -->
+    <script src="https://kit.fontawesome.com/48116c82dc.js" crossorigin="anonymous"></script> <!-- kit -->
+    <title>Catch Me If You Can</title> <!-- כותרת שמוצגת בלשונית של האתר למעלה -->
+</head>
+
+<body><!-- גוף האתר -->
+
+    <div id="title">
+        <!-- כותרת דף -->
+        <div id="startGame">
+            <h1>
+                <i class="far fa-hand-point-right"></i> <!-- icon -->
+                Catch Me If You Can!
+            </h1>
+        </div>
+    </div>
+
+    <div id="background">
+        <!-- רקע המשחק -->
+        <div id="spinner">Click Me</div> <!-- דייב לתפיסה -->
+    </div>
+
+    <!-- טבלה -->
+    <div id="table">
+        <div id="table1">
+            <h2><i class="fas fa-star"></i>Score:
+                <div id="points">0
+            </h2>
+        </div>
+        <div id="table2">
+            <h2><i class="fas fa-forward"></i>Points to Next Level:
+                <div id="points2">0</h2>
+        </div>
+        <div id="table3">
+            <h2><i class="fas fa-layer-group"></i>Level:
+                <div id="points3">1</h2>
+        </div>
+        <div id="table4">
+            <h2><i class="fas fa-mouse"></i>Missed Clicks:
+                <div id="points4">0</h2>
+        </div>
+        <div id="table5">
+            <h2><i class="fas fa-stopwatch"></i>Timer:
+                <div id="Timer">60</h2>
+        </div>
+        <div id="table6">
+            <h2><i class="fas fa-trophy"></i>High Scores:
+                <div id="points6">
+            </h2>
+            <div id="TopPlayer"></div>
+        </div>
+    </div>
+
+    <script src="js/stopwatch.js"></script> <!-- החרזת על הקובץ שעון -->
+    <script src="js/main.js"></script> <!-- החרזת על הקובץ הראשי -->
+</body>
+
+</html>

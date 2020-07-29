@@ -1,0 +1,136 @@
+#background { /* רקע משחק */
+    background-color: black;
+    width: 1285px;
+    height: 670px;
+    position: relative;
+    float: left;
+    left: 10px;
+}
+#spinner { /* דייב */
+    padding: 8px 10px;
+    background-color: chartreuse;
+    text-align: center;
+    position: absolute;
+    animation: rotate infinite linear 0s;
+}
+#title { /* כותרת */
+    background-color: rgb(248, 244, 31);
+    height: 50px;
+    border: black solid 10px;
+    margin: 10px;
+}
+#table { /* טבלה */
+    background-color: rgb(29, 216, 230);
+    width: 354px;
+    height: 650px;
+    position: relative;
+    float: right;
+    left: -10px;
+    border: solid 10px;
+}
+#table1 {
+    background-color: rgb(101, 188, 223);
+    width: 156px;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: 5px;
+    left: -193px;
+}
+#table2 {
+    background-color: rgb(101, 188, 223);
+    width: 345px;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: 10px;
+    left: -4px;
+}
+#table3 {
+    background-color: rgb(101, 188, 223);
+    width: 182px;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: -194px;
+    left: -4px;
+}
+#table4 {
+    background-color: rgb(101, 188, 223);
+    width: 345px;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: -85px;
+    left: -4px;
+}
+#table5 {
+    background-color: rgb(101, 188, 223);
+    width: 345px;
+    height: 100px;
+    position: relative;
+    float: right;
+    top: -80px;
+    left: -4px;
+}
+#table6 {
+    background-color: rgb(101, 188, 223);
+    width: 345px;
+    height: 221px;
+    position: relative;
+    float: right;
+    top: -75px;
+    left: -4px;
+}
+h4 {
+    margin-block-end: -1.35em;
+}
+
+#TopPlayer {
+    font-size: 25px;
+}
+
+#startGame { /* טקסט תחילת משחק */
+    text-align: center;
+}
+#startGame:hover { /* עובר על הכותרת תחילת משחק */
+    cursor: pointer;
+}
+
+#spinner:hover { /* עובר על הדייב */
+    cursor: pointer;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+#points {
+    text-align: left;
+    font-size: 45px;
+}
+#points2 {
+    text-align: left;
+    font-size: 45px;
+}
+#points3 {
+    text-align: left;
+    font-size: 45px;
+}
+#points4 {
+    text-align: left;
+    font-size: 45px;
+}
+#Timer {
+    text-align: left;
+    font-size: 45px;
+}
+#points6 {
+    text-align: left;
+    font-size: 45px;
+}
+
+@keyframes rotate { /* מסתובב */
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+@media screen and (max-width:414px) {} /* רספונסיבי */
